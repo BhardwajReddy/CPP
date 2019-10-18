@@ -28,3 +28,9 @@ erase() – It is used to remove elements from a container from the specified po
 swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
 clear() – It is used to remove all the elements of the vector container
 
+
+Linked List:-
+
+
+
+
