@@ -1,1 +1,31 @@
 
+Arrays:-
+
+
+int a[n]; -declaration of array with size n all zeroes  ;
+int a[] = {1,2,3,4,5};
+a[0]-->1;a[1]-->2;a[2]-->3
+
+-->sizeof(int)(retunrs integer);-->4 addrres of 1 2 3 4 increase by 4.
+-->array name indicates the address of first element. so here a is the pointer for the first elemsnt in array .
+--> *a will print 1.
+
+
+Vectors(Dynamic arrays):-
+
+vector<int>v; or vector<int>v(n); or vector<int>v(n,0);- with size n and all zeroes 
+v[0] = 1;v[0]=2;  
+v.begin() - gives pointer to first element
+v.end() - give spointer after the last element 
+size() – Returns the number of elements in the vector.
+max_size() – Returns the maximum number of elements that the vector can hold.
+resize(n) – Resizes the container so that it contains ‘n’ elements.
+empty() – Returns whether the container is empty.
+assign() – It assigns new value to the vector elements by replacing old ones
+push_back() – It push the elements into a vector from the back
+pop_back() – It is used to pop or remove elements from a vector from the back.
+insert() – It inserts new elements before the element at the specified position
+erase() – It is used to remove elements from a container from the specified position or range.
+swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+clear() – It is used to remove all the elements of the vector container
+
