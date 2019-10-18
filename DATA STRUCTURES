@@ -18,7 +18,6 @@ v[0] = 1;v[0]=2;
 v.begin() - gives pointer to first element
 v.end() - give spointer after the last element 
 size() – Returns the number of elements in the vector.
-max_size() – Returns the maximum number of elements that the vector can hold.
 resize(n) – Resizes the container so that it contains ‘n’ elements.
 empty() – Returns whether the container is empty.
 assign() – It assigns new value to the vector elements by replacing old ones
