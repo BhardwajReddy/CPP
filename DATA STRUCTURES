@@ -1,4 +1,32 @@
 
+
+Syntax:
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
 Arrays:-
 
 
@@ -10,26 +38,63 @@ a[0]-->1;a[1]-->2;a[2]-->3
 -->array name indicates the address of first element. so here a is the pointer for the first elemsnt in array .
 --> *a will print 1.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------
 Vectors(Dynamic arrays):-
 
 vector<int>v; or vector<int>v(n); or vector<int>v(n,0);- with size n and all zeroes 
 v[0] = 1;v[0]=2;  
 v.begin() - gives pointer to first element
+
 v.end() - give spointer after the last element 
+
 size() – Returns the number of elements in the vector.
+
 resize(n) – Resizes the container so that it contains ‘n’ elements.
+
 empty() – Returns whether the container is empty.
+
 assign() – It assigns new value to the vector elements by replacing old ones
+
+back() - returns the last element 
+
 push_back() – It push the elements into a vector from the back
+
 pop_back() – It is used to pop or remove elements from a vector from the back.
-insert() – It inserts new elements before the element at the specified position
-erase() – It is used to remove elements from a container from the specified position or range.
+
+insert(v.begint()+i,value) – It inserts new elements before the element at the specified position i.
+
+erase(v.begin()+i) – It is used to remove elements from a container from the specified position or range.
+
 swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+
 clear() – It is used to remove all the elements of the vector container
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Hashing:-
 
-Linked List:-
+unordered_set<int> set;--> O(1) time complexity  (or) set<int>set--->O(logn)   - time complexity
+
+set.insert(5);
+set.count(5) - gives 1 if it is present else 0
+All the elements in the set are distinct 
+
+
+unordered_map<int,int> map;-->O(1) time complexity (or) map<int,int>map--> O(logn) time complexity 
+
+map.insert({1,2});
+map.count(key) - then key exist
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 
