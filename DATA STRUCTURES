@@ -9,7 +9,7 @@ while(cin>>x){
 
 
 
-} --- iterate loop[ upto input ends 
+} --- iterate loop upto input ends 
 
 reverse(s.begin(),s.end()) - > it will reverse array, vector, string ,char arry etc
 
@@ -58,6 +58,19 @@ swap() – It is used to swap the contents of one vector with another vector of 
 clear() – It is used to remove all the elements of the vector container
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+Strings:-
+
+
+ isalpha(c) = 0  - -- check whether it is alphabet or not
+ isdigit(c) = 0 ----- check whether it is digit 
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Hashing:-
 
 unordered_set<int> set;--> O(1) time complexity  (or) set<int>set--->O(logn)   - time complexity
