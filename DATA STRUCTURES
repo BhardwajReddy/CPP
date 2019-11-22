@@ -14,6 +14,27 @@ while(cin>>x){
 reverse(s.begin(),s.end()) - > it will reverse array, vector, string ,char arry etc
 
 
+--------------------------------------------------------------------------------------------------------------------------------
+Bitwise operators 
+
+& (bitwise AND)
+| (bitwise OR)
+~ (bitwise NOT)
+^ (bitwise XOR)
+<< (bitwise left shift)
+>> (bitwise right shift)
+>>> (bitwise unsigned right shift)
+&= (bitwise AND assignment)
+|= (bitwise OR assignment)
+^= (bitwise XOR assignment)
+<<= (bitwise left shift and assignment)
+>>= (bitwise right shift and assignment)
+>>>= (bitwise unsigned right shift and assignment)
+
+
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------
 Arrays:-
